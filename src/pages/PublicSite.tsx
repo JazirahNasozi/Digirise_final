@@ -23,7 +23,6 @@ const PublicSite = () => {
           setNotFound(true);
         } else {
           setWebsite(data);
-          // Set browser tab title to business name
           document.title = data.name || "DigiRise Website";
         }
         setLoading(false);

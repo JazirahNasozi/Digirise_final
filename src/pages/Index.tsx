@@ -39,16 +39,16 @@ const Index = () => {
       {/* Navbar */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <img src="/favicon.png" alt="DigiRise" className="h-8 w-8" />
-            <span className="text-xl font-display font-bold">DigiRise</span>
+          <div className="flex items-center gap-2 min-w-0">
+            <img src="/favicon.png" alt="DigiRise" className="h-8 w-8 shrink-0" />
+            <span className="text-xl font-display font-bold truncate">DigiRise</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <a href="#how-it-works" className="hover:text-foreground transition-colors">How It Works</a>
             <a href="#templates" className="hover:text-foreground transition-colors">Templates</a>
             <a href="#features" className="hover:text-foreground transition-colors">Features</a>
           </nav>
-          <div className="flex items-center gap-1 sm:gap-3">
+          <div className="flex items-center gap-1 sm:gap-3 shrink-0">
             <ThemeToggle />
             <Link to="/login">
               <Button variant="ghost" size="sm" className="text-xs sm:text-sm px-2 sm:px-3">Sign In</Button>
@@ -92,7 +92,7 @@ const Index = () => {
                   <Sparkles className="mr-2 h-5 w-5" /> Start Building
                 </Button>
               </Link>
-              <a href="https://digirise.vercel.app/site/e1f3135c-0dfc-466a-882b-d7b7e592a20d" target="_blank" rel="noopener noreferrer">
+              <a href="https://digirise.vercel.app/site/e1f3135c-0dfc-466a-882b-d7b7e592a20d">
                 <Button size="lg" variant="outline" className="text-lg h-14 px-10 border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10 bg-transparent">
                   See Example Website
                 </Button>
