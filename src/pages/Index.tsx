@@ -92,11 +92,11 @@ const Index = () => {
                   <Sparkles className="mr-2 h-5 w-5" /> Start Building
                 </Button>
               </Link>
-              <Link to="/site/example">
+              <a href="https://digirise.vercel.app/site/e1f3135c-0dfc-466a-882b-d7b7e592a20d" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="text-lg h-14 px-10 border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10 bg-transparent">
                   See Example Website
                 </Button>
-              </Link>
+              </a>
             </div>
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-secondary-foreground/40 text-sm">
