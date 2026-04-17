@@ -39,9 +39,9 @@ const Index = () => {
       {/* Navbar */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2 min-w-0">
-            <img src="/favicon.png" alt="DigiRise" className="h-8 w-8 shrink-0" />
-            <span className="text-xl font-display font-bold truncate">DigiRise</span>
+          <div className="flex items-center gap-1.5 shrink-0">
+            <img src="/favicon.png" alt="DigiRise" className="h-6 w-6 sm:h-8 sm:w-8" />
+            <span className="text-base sm:text-xl font-display font-bold">DigiRise</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <a href="#how-it-works" className="hover:text-foreground transition-colors">How It Works</a>
